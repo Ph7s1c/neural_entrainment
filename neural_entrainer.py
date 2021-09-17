@@ -12,7 +12,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_w:
+            if event.key == pygame.K_ESCAPE:
                 running = False
     if color == 1:
         screen.fill((255, 255, 255))
